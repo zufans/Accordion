@@ -1,0 +1,74 @@
+.containerAccordion {
+  margin: auto;
+  width: 100%;
+}
+
+.accordion {
+  background-color: green;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  /* text-align: left; */
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.panelActive {
+  padding: 0 18px;
+  /* display: block; */
+  display: block;
+  /* display: none; to hide block */
+  /* display: block; to show*/
+  background-color: gray;
+  /* overflow: hidden; */
+}
+
+/* This is for the navbar  */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  padding-right: 20px;
+}
+
+.leftC {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.rightC {
+  padding-right: 30px;
+}
+
+/* this is for accTitle */
+.containerAcc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftAcc {
+  padding-left: 10px;
+}
+
+.rightAcc {
+  padding-right: 10px;
+}

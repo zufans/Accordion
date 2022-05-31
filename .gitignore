@@ -1,0 +1,17 @@
+/node_modules
+node_modules
+
+*.txt
+rollup.config.js
+postcss.config.js
+notes
+
+
+.storybook
+pushToGit.sh
+publish.sh
+
+notes
+auto.sh
+gitFristCommit.sh
+src/stores
