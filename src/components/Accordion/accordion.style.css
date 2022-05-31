@@ -28,10 +28,7 @@
 
   .panelActive {
     padding: 0 18px;
-    /* display: block; */
     display: block;
-    /* display: none; to hide block */
-    /* display: block; to show*/
     background-color: gray;
     /* overflow: hidden; */
   }

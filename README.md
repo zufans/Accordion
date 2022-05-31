@@ -4,31 +4,36 @@
 ### Installtion
 <code>npm install @zufans/toggle</code>
 <br>
-
+title, content, titleStyle, contentStyle, style
 <table>
     <tr>
         <th>Prop</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>string, element</th>
     </tr>
     <tr>
-        <td>bgOn</td>
+        <td>title</td>
         <td>String</td>
-        <td>This is the color of the background of the toggle when ON mode. This does not reference the switch its self.</td>
+        <td>string, element</td>
     </tr>
     <tr>
-        <td>bgOff</td>
+        <td>content</td>
         <td>String</td>
-        <td>This is the color of the background of the toggle when OFF mode. This does not reference the switch its self.</td>
+        <td>string, element</td>
     </tr>
     <tr>
-        <td>switchbg</td>
-        <td>String</td>
-        <td>This is the color of toggle its self. </td>
+        <td>titleStyle</td>
+        <td>Object</td>
+        <td></td>
     </tr>
     <tr>
-        <td>width</td>
-        <td>String</td>
-        <td>This references the width of the toggle</td>
+        <td>contentStyle</td>
+        <td>Object</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>style</td>
+        <td>Object</td>
+        <td></td>
     </tr>
 </table>

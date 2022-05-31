@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './accordion.style.css'
+import PropTypes from 'prop-types';
 export default function Accordion({title, content, titleStyle, contentStyle, style}){
     const [panel, setPanel]=useState('panel')
     const accordionOnClick =()=>{
@@ -16,4 +17,20 @@ export default function Accordion({title, content, titleStyle, contentStyle, sty
             </div>
         </div>
     )
+}
+
+Accordion.PropTypes={
+    title: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+        PropTypes.element,
+    ]),
+    content: PropTypes.PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+        PropTypes.element,
+    ]),
+    titleStyle: PropTypes.object, 
+    contentStyle: PropTypes.object,
+    style: PropTypes.object
 }
