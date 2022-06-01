@@ -2,7 +2,7 @@
 <p>This is a Navigation dropdown component for react application.</p>
 
 ### Installtion
-<code>npm install @zufans/toggle</code>
+<code>npm install @zufans/accordion</code>
 <br>
 title, content, titleStyle, contentStyle, style
 <table>
