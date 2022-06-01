@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -56,22 +57,12 @@ function Accordion({
     className: panel
   }, content));
 }
-/*
-Accordion.propTypes={
-    title: PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.object,
-        PropTypes.element,
-    ]),
-    content: PropTypes.PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.object,
-        PropTypes.element,
-    ]),
-    titleStyle: PropTypes.object, 
-    contentStyle: PropTypes.object,
-    style: PropTypes.object
-}
-*/
+Accordion.propTypes = {
+  title: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.element]),
+  content: PropTypes.PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.element]),
+  titleStyle: PropTypes.object,
+  contentStyle: PropTypes.object,
+  style: PropTypes.object
+};
 
 export { Accordion as default };

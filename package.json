@@ -1,6 +1,6 @@
 {
   "name": "@zufans/accordion",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Accordion",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
