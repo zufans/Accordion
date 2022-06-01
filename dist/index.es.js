@@ -47,14 +47,14 @@ function Accordion({
 
   return /*#__PURE__*/React.createElement("div", {
     style: style,
-    class: "containerAccordion"
+    className: "containerAccordion"
   }, /*#__PURE__*/React.createElement("div", {
     style: titleStyle,
-    class: "accordion",
+    className: "accordion",
     onClick: accordionOnClick
   }, title), /*#__PURE__*/React.createElement("div", {
     style: contentStyle,
-    class: panel
+    className: panel
   }, content));
 }
 Accordion.PropTypes = {

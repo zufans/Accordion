@@ -8,11 +8,11 @@ export default function Accordion({title, content, titleStyle, contentStyle, sty
         setPanel(p)
     }
     return (
-        <div style={style} class="containerAccordion" >
-            <div style={titleStyle} class="accordion" onClick={accordionOnClick}>
+        <div style={style} className="containerAccordion" >
+            <div style={titleStyle} className="accordion" onClick={accordionOnClick}>
                 {title}
             </div>
-            <div style={contentStyle} class={panel}>
+            <div style={contentStyle} className={panel}>
                 {content}
             </div>
         </div>

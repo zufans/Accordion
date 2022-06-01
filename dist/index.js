@@ -54,14 +54,14 @@ function Accordion({
 
   return /*#__PURE__*/React__default["default"].createElement("div", {
     style: style,
-    class: "containerAccordion"
+    className: "containerAccordion"
   }, /*#__PURE__*/React__default["default"].createElement("div", {
     style: titleStyle,
-    class: "accordion",
+    className: "accordion",
     onClick: accordionOnClick
   }, title), /*#__PURE__*/React__default["default"].createElement("div", {
     style: contentStyle,
-    class: panel
+    className: panel
   }, content));
 }
 Accordion.PropTypes = {
