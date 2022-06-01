@@ -18,8 +18,8 @@ export default function Accordion({title, content, titleStyle, contentStyle, sty
         </div>
     )
 }
-
-Accordion.PropTypes={
+/*
+Accordion.propTypes={
     title: PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.object,
@@ -34,3 +34,4 @@ Accordion.PropTypes={
     contentStyle: PropTypes.object,
     style: PropTypes.object
 }
+*/

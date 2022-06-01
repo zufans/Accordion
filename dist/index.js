@@ -1,12 +1,11 @@
 'use strict';
 
 var React = require('react');
-var PropTypes = require('prop-types');
+require('prop-types');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
-var PropTypes__default = /*#__PURE__*/_interopDefaultLegacy(PropTypes);
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -64,12 +63,22 @@ function Accordion({
     className: panel
   }, content));
 }
-Accordion.PropTypes = {
-  title: PropTypes__default["default"].oneOfType([PropTypes__default["default"].string, PropTypes__default["default"].object, PropTypes__default["default"].element]),
-  content: PropTypes__default["default"].PropTypes.oneOfType([PropTypes__default["default"].string, PropTypes__default["default"].object, PropTypes__default["default"].element]),
-  titleStyle: PropTypes__default["default"].object,
-  contentStyle: PropTypes__default["default"].object,
-  style: PropTypes__default["default"].object
-};
+/*
+Accordion.propTypes={
+    title: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+        PropTypes.element,
+    ]),
+    content: PropTypes.PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+        PropTypes.element,
+    ]),
+    titleStyle: PropTypes.object, 
+    contentStyle: PropTypes.object,
+    style: PropTypes.object
+}
+*/
 
 module.exports = Accordion;
