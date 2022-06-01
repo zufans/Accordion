@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import 'prop-types';
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -28,7 +27,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "";
+var css_248z = ".containerAccordion{\n    margin: auto;\n    width: 100%;\n}\n\n.accordion {\n    background-color: green;\n    color: #444;\n    cursor: pointer;\n    padding: 18px;\n    border: none;\n    /* text-align: left; */\n    outline: none;\n    font-size: 15px;\n    transition: 0.4s;\n}\n  \n.active, .accordion:hover {\n    background-color: #ccc; \n}\n  \n.panel {\n    padding: 0 18px;\n    display: none;\n    background-color: white;\n    overflow: hidden;\n}\n\n  .panelActive {\n    padding: 0 18px;\n    display: block;\n    background-color: gray;\n    /* overflow: hidden; */\n  }";
 styleInject(css_248z);
 
 function Accordion({
